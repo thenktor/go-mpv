@@ -3,6 +3,7 @@
 package mpv
 
 /*
-#cgo CFLAGS: -I/opt/homebrew/include -I/opt/local/include
+#cgo CFLAGS: -I/opt/xcframework/Libmpv.xcframework/ios-arm64/Headers
+#cgo LDFLAGS: -F/opt/xcframework/Libmpv.xcframework/ios-arm64 -lmpv-combined
 */
 import "C"
